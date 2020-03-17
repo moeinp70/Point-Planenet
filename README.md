@@ -8,13 +8,11 @@ Digital Signal Processing 2020 (DSP 2020), https://www.sciencedirect.com/science
 ![prediction example](https://raw.githubusercontent.com/moeinp70/Point-Planenet/master/fig1.png)
 
 ### Introduction
-we propose PlaneConv; a new layer to extract features from
-local structures of point clouds by learning a set of planes in the Euclidean
-space. The kernel for PlaneConv is a new operation that learns the parameters of the planes by measuring the distance between these planes and local
-points. We use this layer as a building block in a PointNet like structure and
-call this network PlaneNet. In a series of experiments including point cloud
-classification, part segmentation and semantic segmentation, our architecture achieves competitive results, obtaining good accuracy with low number
-of parameters.
+We propose an alternative simple local operation, called
+PlaneConv, which can extract local geometric features from point clouds by
+learning a set of planes in Rn space. The proposed architecture tackles both
+point cloud classification and segmentation tasks. Moreover, each module is
+designed to be permutation invariant. PlaneConv has a simple theoretical analysis and is easy to incorporate into deep learning models to improve their performance.
 
 Here we list the commands for training/evaluating PlaneNet on classification and segmentation tasks on multiple datasets.
 
@@ -25,7 +23,8 @@ Here we list the commands for training/evaluating PlaneNet on classification and
 * ##### Segmentation
   * ##### ShapeNet
   * ##### S3DIS
-  
+  ![prediction example](https://raw.githubusercontent.com/moeinp70/Point-Planenet/master/res.png)
+
 ## Installation
 Requirements:
 - Python 3
