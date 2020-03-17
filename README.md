@@ -19,12 +19,11 @@ of parameters.
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-        @article{peyghambarzadeh2020point,
-          title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
-          author={Peyghambarzadeh, SM Moein and Azizmalayeri, Fatemeh and Khotanlou, Hassan and Salarpour, Amir},
-          journal={Digital Signal Processing},
-          volume={98},
-          pages={102633},
-          year={2020},
-          publisher={Elsevier}
-        }
+ @article{peyghambarzadeh2020point,
+ title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
+ author={Peyghambarzadeh, SM Moein and Azizmalayeri, Fatemeh and Khotanlou, Hassan and Salarpour, Amir},
+ journal={Digital Signal Processing},
+ volume={98},
+ pages={102633},
+ year={2020},
+ publisher={Elsevier}}
