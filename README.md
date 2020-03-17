@@ -21,19 +21,19 @@ of parameters.
 ## Installation
 Requirements:
 - Python 3
-- CUDA 9.0 or higher
+- CUDA 8.0 or higher
 - [tensorflow 1.4 or higher](https://www.tensorflow.org/get_started/os_setup)
 - Windows 10 and Ubuntu 16.04.
-This code has been tested with Python 3.5, Tensorflow 1.10 and CUDA 9.0 on Ubuntu 16.04. if u want compile with tensorflow 2.0 please change import to:
 
+This code has been tested with Python 3.5, Tensorflow 1.2 and CUDA 8.0 on Ubuntu 16.04. The code have also been tested on Windows 10 with python 3.5-3.7, tensorflow 1.4(or higher), cuda 9 (or higher)  and cudnn 6.0 (or higher).
+ notice ; If u want compile with tensorflow 2.0 please change import to:
 ```
-    import tensorflow.compat.v1 as tf
-    tf.disable_v2_behavior()
- ```   
- 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+```   
 ### Citation
 If you find our work useful in your research, Please cite this paper:
-```
+
     @article{peyghambarzadeh2020point,
       title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
       author={Peyghambarzadeh, SM Moein and Azizmalayeri, Fatemeh and Khotanlou, Hassan and Salarpour, Amir},
@@ -43,4 +43,8 @@ If you find our work useful in your research, Please cite this paper:
       year={2020},
       publisher={Elsevier}
     }
-```
+
+## References
+Our released code heavily based on each methods original repositories as cited below:
+* <a href="https://github.com/charlesq34/pointnet" target="_blank">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a> by Qi et al. (CVPR 2017).
+* <a href="https://github.com/charlesq34/pointnet2" target="_black">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017).
