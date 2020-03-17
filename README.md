@@ -26,12 +26,14 @@ Requirements:
 - Windows 10 and Ubuntu 16.04.
 This code has been tested with Python 3.5, Tensorflow 1.10 and CUDA 9.0 on Ubuntu 16.04. if u want compile with tensorflow 2.0 please change import to:
 
+```
     import tensorflow.compat.v1 as tf
     tf.disable_v2_behavior()
-
+ ```   
+ 
 ### Citation
 If you find our work useful in your research, Please cite this paper:
-
+```
     @article{peyghambarzadeh2020point,
       title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
       author={Peyghambarzadeh, SM Moein and Azizmalayeri, Fatemeh and Khotanlou, Hassan and Salarpour, Amir},
@@ -41,4 +43,4 @@ If you find our work useful in your research, Please cite this paper:
       year={2020},
       publisher={Elsevier}
     }
-
+```
