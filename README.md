@@ -16,8 +16,16 @@ call this network PlaneNet. In a series of experiments including point cloud
 classification, part segmentation and semantic segmentation, our architecture achieves competitive results, obtaining good accuracy with low number
 of parameters.
 
+Here we list the commands for training/evaluating PlaneNet on classification and segmentation tasks on multiple datasets.
 
-
+* ## Classification
+  * ## ModelNet40
+  * ## MNIST
+  
+* ### Segmentation
+  * ## ShapeNet
+  * ## S3DIS
+  
 ## Installation
 Requirements:
 - Python 3
@@ -31,6 +39,17 @@ This code has been tested with Python 3.5, Tensorflow 1.2 and CUDA 8.0 on Ubuntu
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 ```   
+To train a model, firstly download the data that explain on the folder 'data'
+### Point Cloud Data
+You can get sampled point clouds of ModelNet40 (XYZ and normal from mesh, 10k points per shape) at this <a href="https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip">link</a>.</br>
+
+Mnist: <a href="https://drive.google.com/file/d/1pcAJa9TereursFkXfXLXiXkfawUv8Uid/view?usp=sharing">here</a>.</br>
+
+The ShapeNetPart dataset (XYZ, normal and part labels) can be found <a href="https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip">here</a>.</br>
+
+S3DIS will be added.</br>
+Uncompress the downloaded data in this directory.
+
 ### Citation
 If you find our work useful in your research, Please cite this paper:
 
