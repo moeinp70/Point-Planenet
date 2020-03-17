@@ -5,4 +5,4 @@ Created by <a href="https://www.researchgate.net/profile/Moein_Peyghambarzadeh" 
 <a href="http://www.salarpour.com" target="_blank"> AmirSalarpour</a>,</br>
 Digital Signal Processing 2020 (DSP 2020), https://www.sciencedirect.com/science/article/abs/pii/S1051200419301873
 
-![prediction example](https://github.com/charlesq34/pointnet/blob/master/doc/teaser.png)
+![prediction example](https://raw.githubusercontent.com/moeinp70/Point-Planenet/master/fig1.png)
