@@ -18,13 +18,13 @@ of parameters.
 
 Here we list the commands for training/evaluating PlaneNet on classification and segmentation tasks on multiple datasets.
 
-* ## Classification
-  * ## ModelNet40
-  * ## MNIST
+* ##### Classification
+  * ##### ModelNet40
+  * ##### MNIST
   
-* ### Segmentation
-  * ## ShapeNet
-  * ## S3DIS
+* ##### Segmentation
+  * ##### ShapeNet
+  * ##### S3DIS
   
 ## Installation
 Requirements:
