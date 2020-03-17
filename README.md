@@ -7,7 +7,7 @@ Digital Signal Processing 2020 (DSP 2020), https://www.sciencedirect.com/science
 
 ![prediction example](https://raw.githubusercontent.com/moeinp70/Point-Planenet/master/fig1.png)
 
-### Introduction
+## Introduction
 We propose an alternative simple local operation, called
 PlaneConv, which can extract local geometric features from point clouds by
 learning a set of planes in Rn space. The proposed architecture tackles both
@@ -39,7 +39,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 ```   
 To train a model, firstly download the data that explain on the folder 'data'
-### Point Cloud Data
+## Point Cloud Data
 You can get sampled point clouds of ModelNet40 (XYZ and normal from mesh, 10k points per shape) at this <a href="https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip">link</a>.</br>
 
 Mnist: <a href="https://drive.google.com/file/d/1pcAJa9TereursFkXfXLXiXkfawUv8Uid/view?usp=sharing">here</a>.</br>
@@ -49,7 +49,7 @@ The ShapeNetPart dataset (XYZ, normal and part labels) can be found <a href="htt
 S3DIS will be added.</br>
 Uncompress the downloaded data in this directory.
 
-### Citation
+## Citation
 If you find our work useful in your research, Please cite this paper:
 
     @article{peyghambarzadeh2020point,
