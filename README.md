@@ -16,8 +16,21 @@ call this network PlaneNet. In a series of experiments including point cloud
 classification, part segmentation and semantic segmentation, our architecture achieves competitive results, obtaining good accuracy with low number
 of parameters.
 
+
+
+## Installation
+Requirements:
+- Python 3
+- CUDA 9.0 or higher
+- [tensorflow 1.4 or higher](https://www.tensorflow.org/get_started/os_setup)
+- Windows 10 and Ubuntu 16.04.
+This code has been tested with Python 3.5, Tensorflow 1.10 and CUDA 9.0 on Ubuntu 16.04. if u want compile with tensorflow 2.0 please change import to:
+
+    import tensorflow.compat.v1 as tf
+    tf.disable_v2_behavior()
+
 ### Citation
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, Please cite this paper:
 
     @article{peyghambarzadeh2020point,
       title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
@@ -28,3 +41,4 @@ If you find our work useful in your research, please consider citing:
       year={2020},
       publisher={Elsevier}
     }
+
