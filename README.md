@@ -20,8 +20,11 @@ of parameters.
 If you find our work useful in your research, please consider citing:
 
         @article{peyghambarzadeh2020point,
-          title={PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation},
-          author={Qi, Charles R and Su, Hao and Mo, Kaichun and Guibas, Leonidas J},
-          journal={arXiv preprint arXiv:1612.00593},
-          year={2016}
+          title={Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis},
+          author={Peyghambarzadeh, SM Moein and Azizmalayeri, Fatemeh and Khotanlou, Hassan and Salarpour, Amir},
+          journal={Digital Signal Processing},
+          volume={98},
+          pages={102633},
+          year={2020},
+          publisher={Elsevier}
         }
